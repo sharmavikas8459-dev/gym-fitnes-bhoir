@@ -1,0 +1,6 @@
+{
+  "name": "Bhoir Fitness & Gym",
+  "description": "Professional Gym Management Website for Bhoir Fitness & Gym. Manage members, plans, renewals, history, and notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
