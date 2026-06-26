@@ -70,7 +70,7 @@ For support, contact Nitesh Bhoir.`;
   // Admin login endpoint
   app.post("/api/login", (req, res) => {
     const { username, password } = req.body;
-    if (username === adminCredentials.username && password === adminCredentials.password) {
+    if (username?.toLowerCase() === adminCredentials.username.toLowerCase() && password === adminCredentials.password) {
       const token = "bhoir_secure_token_" + Date.now();
       res.json({
         success: true,
